@@ -11,8 +11,6 @@ on:
 
 jobs:
   buil_da_aplicacao:
-    env: 
-      key:  
     runs-on: ubuntu-latest
 
     strategy:
