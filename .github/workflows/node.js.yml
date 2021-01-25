@@ -11,8 +11,6 @@ on:
 
 jobs:
   buil_da_aplicacao:
-    env: 
-      GITHUB_EVENT_PATH: /home/runner/work/sappu-front-end-vue/app/package.json
     runs-on: ubuntu-latest
 
     strategy:
