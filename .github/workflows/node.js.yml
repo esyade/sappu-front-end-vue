@@ -24,6 +24,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: mv -R app sappu-front-end-vue
+    - run: mv -R ~/sappu-front-end-vue/app ~/sappu-front-end-vue/sappu-front-end-vue
     - run: npm run build --if-present
     - run: npm test
