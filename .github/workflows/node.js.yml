@@ -8,10 +8,7 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-defaults:
-  run:
-    working-directory: app
-
+    S
 jobs:
   buil_da_aplicacao:
     runs-on: ubuntu-latest
