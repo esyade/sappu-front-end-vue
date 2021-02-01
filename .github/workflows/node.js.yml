@@ -27,4 +27,4 @@ jobs:
     - run: npm install vue
     - run: npm run build --if-present
     - run: npm install express serve-static --save
-    - run: npm test
+    - run: node server.js
